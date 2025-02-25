@@ -1,6 +1,6 @@
 # 🌐 TradeHUB
 
-Welcome to **TradeHUB**! This repository includes a clone of the popular stock trading platform, built using the MERN stack.
+Welcome to **TradeHUB**!
 
 ## 👑 Table of Contents
 
