@@ -12,6 +12,10 @@ module.exports.register = async (req, res) => {
       return res.status(400).json({ error: "Email already exists" });
     }
 
+    if (/\s/.test(req.body.password)) {
+      return res.status(400).json({ error: "Password should not contain spaces" });
+    }
+
     const hashedPassword = await bcrypt.hash(req.body.password, 10);
 
     const newUser = new UserModel({
