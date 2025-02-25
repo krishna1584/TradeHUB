@@ -5,23 +5,23 @@ function Footer() {
     <footer style={{ backgroundColor: "#fbfbfb" }} className="border-top">
       <div className="container mt-5">
         <div className="row mt-5">
-          <div className="col">
-            <img src="media/images/logo.png" style={{ width: "50%" }} className="mb-3" />
+          <div className="col-md-4 mb-4">
+            <img src="media/images/logo.png" style={{ width: "50%" }} className="mb-3" alt="TradeHub Logo" />
             <p className="mb-4">&copy; 2010 - 2024, TradeHub Broking Ltd. All rights reserved.</p>
             <div className="fs-4 d-flex gap-3 text-muted">
-              <i class="fa-brands fa-x-twitter"></i>
-              <i class="fa-brands fa-square-facebook"></i>
-              <i class="fa-brands fa-instagram"></i>
-              <i class="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-x-twitter"></i>
+              <i className="fa-brands fa-square-facebook"></i>
+              <i className="fa-brands fa-instagram"></i>
+              <i className="fa-brands fa-linkedin"></i>
             </div>
             <hr />
             <div className="fs-4 d-flex gap-3 text-muted">
-              <i class="fa-brands fa-youtube"></i>
-              <i class="fa-solid fa-comment"></i>
-              <i class="fa-brands fa-telegram"></i>
+              <i className="fa-brands fa-youtube"></i>
+              <i className="fa-solid fa-comment"></i>
+              <i className="fa-brands fa-telegram"></i>
             </div>
           </div>
-          <div className="col footer-nav">
+          <div className="col-md-2 col-6 footer-nav mb-4">
             <p>Company</p>
             <a href="">About</a>
             <br />
@@ -40,7 +40,7 @@ function Footer() {
             <a href="">TradeHub Cares (CSR)</a>
             <br />
           </div>
-          <div className="col footer-nav">
+          <div className="col-md-2 col-6 footer-nav mb-4">
             <p>Support</p>
             <a href="">Contact us</a>
             <br />
@@ -53,9 +53,10 @@ function Footer() {
             <a href="">Downloads & resources</a>
             <br />
           </div>
-          <div className="col footer-nav">
+          <div className="col-md-2 col-6 footer-nav mb-4">
             <p>Account</p>
             <a href="">Open an account</a>
+            <br />
             <a href="">Fund transfer</a>
           </div>
         </div>

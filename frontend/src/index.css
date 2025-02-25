@@ -49,3 +49,52 @@ code {
   border-radius: 10px;
   border: none;
 }
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+  #supportWrapper {
+    margin: 0 100px;
+  }
+}
+
+@media (max-width: 992px) {
+  #supportWrapper {
+    margin: 0 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #supportHero input {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    margin-left: 20px;
+  }
+
+  #supportWrapper {
+    margin: 0 20px;
+  }
+
+  #supportHero input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav-link {
+    margin-left: 10px;
+  }
+
+  #supportWrapper {
+    margin: 0 10px;
+  }
+
+  #supportHero input {
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+}
