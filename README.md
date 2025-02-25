@@ -106,8 +106,13 @@ Explore the unique features available in this application:
 - UserName : Demo
 - Password : Demo
 
+![Home](/Screenshot/Home.png)
 
----
+![About](/Screenshot/About.png)
+
+![Dashboard](/Screenshot/Dashboard.jpeg)
+
+![Footer](/Screenshot/Footer.png)
 
 
 ### Enjoy exploring and contributing to TradeHUB!
